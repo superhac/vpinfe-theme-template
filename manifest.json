@@ -1,10 +1,10 @@
 {
   "name": "Template",
-  "version": "1.0",
+  "version": "1.1",
   "author": "superhac",
   "description": "A template theme showing how to create VPinFE template.",
   "preview_image": "preview.png",
   "supported_screens": 3,
   "type": "both",
-  "change_log": "what changed in this version?"
+  "change_log": "Preview Img added."
 }
