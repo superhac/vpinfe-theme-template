@@ -4,6 +4,31 @@ body {
   padding: 0;
   height: 100%;
   background-color: black;
-  color: white; 
+  color: white;
   overflow: hidden;
+}
+
+#rootContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Fade overlay for screen transitions (table launch/return) */
+#fadeOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  pointer-events: none;
+  z-index: 9998;
+}
+
+#fadeOverlay.show {
+  opacity: 1;
 }
