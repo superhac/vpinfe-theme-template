@@ -1,10 +1,10 @@
 {
   "name": "Template",
-  "version": "1.4",
+  "version": "1.5",
   "author": "superhac",
   "description": "A template theme demonstrating all VPinFE theme patterns.",
   "preview_image": "preview.png",
   "supported_screens": 3,
   "type": "desktop",
-  "change_log": "updated all documented patterns."
+  "change_log": "Support core audio and muting"
 }
